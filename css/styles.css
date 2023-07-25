@@ -1,5 +1,9 @@
 /* GERAL */
 
+html {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@
 #main-container {
     display: flex;
     flex-direction: row;
-    margin: 30px;
+    margin: 3rem;
 }
 
 #banner-container, #form-container {
@@ -25,7 +29,7 @@
 }
 
 #banner-container img {
-    margin-right: -15px;
+    margin-right: -1.5rem;
 }
 
 #form-container {
@@ -35,41 +39,41 @@
 /* LOGIN FORM */
 #form-box, #register-container{
     background-color: #FFF;
-    border: 1px solid #DBDBDB;
-    width: 350px;
-    margin-top: 30px;
+    border: 0.1rem solid #DBDBDB;
+    width: 35rem;
+    margin-top: 3rem;
 }
 
 #form-box #logo-insta {
-    width: 175px;
-    height: 51px;
-    margin: 30px auto 12px;
+    width: 17.5rem;
+    height: 5.1rem;
+    margin: 3rem auto 1.2rem;
     background: #FFF;
 }
 
 #login-form {
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 #login-form input {
     display: block;
-    font-size: 12px;
-    padding: 12px 9px;
+    font-size: 1.2rem;
+    padding: 1.2rem 0.9rem;
     background-color: #FAFAFA;
-    border: 1px solid #DBDBDB;
-    border-radius: 3px;
-    width: 268px;
-    margin: 5px auto;
+    border: 0.1rem solid #DBDBDB;
+    border-radius: 0.3rem;
+    width: 26.8rem;
+    margin: 0.5rem auto;
 }
 
 #login-form input[type="submit"] {
     background-color: #4c9ed4;
     color: #FFF;
-    margin-top: 15px;
-    border-radius: 5px;
-    height: 30px;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    height: 3rem;
     border-color: #4c9ed4;
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 0;
     font-weight: bold;
     cursor: pointer;
@@ -82,26 +86,26 @@
 
 .separator .line {
     border-top: 1px solid #DBDBDB;
-    width: 268px;
-    margin: 25px auto 35px;
+    width: 26.8rem;
+    margin: 2.5rem auto 3.5rem;
 }
 
 .separator span {
     position: absolute;
     text-transform: uppercase;
     color: #BBB;
-    width: 50px;
-    top: -6px;
+    width: 5rem;
+    top: -0.6rem;
     left: 50%;
-    margin-left: -25px;
-    font-size: 14px;
+    margin-left: -2.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
 /* FACEBOOK LOGIN */
 
 #facebook-login {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 
 #facebook-login a {
@@ -113,15 +117,15 @@
 }
 
 #facebook-login img {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 0.8rem;
 }
 
 #facebook-login span {
     font-weight: bold;
-    font-size: 13px;
-    margin-top: 1px;
+    font-size: 1.3rem;
+    margin-top: 0.1rem;
 }
 
 /* ESQUECEU A SENHA */
@@ -132,19 +136,19 @@
 }
 
 #forgot-pass {
-    margin-bottom: 20px;
-    font-size: 12px;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
 }
 
 /* CHAMADA CADASTRO */
 
 #register-container {
-    margin-top: 10px;
-    padding: 25px;
+    margin-top: 1rem;
+    padding: 2.5rem;
 }
 
 #register-container p {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #262626;
 }
 
@@ -158,12 +162,12 @@
 
 #get-app-container {
     text-align: center;
-    width: 350px;
+    width: 35rem;
 }
 
 #get-app-container p {
-    margin: 20px 0;
-    font-size: 13px;
+    margin: 2rem 0;
+    font-size: 1.3rem;
 }
 
 #get-app-container a {
@@ -171,36 +175,36 @@
 }
 
 #get-app-container img {
-    width: 136px;
-    height: 40px;
+    width: 13.6rem;
+    height: 4rem;
 }
 
 /* RODAPÉ */
 
 footer {
     text-align: left;
-    width: 1000px;
-    margin: 50px auto;
+    width: 100rem;
+    margin: 5rem auto;
 }
 
 footer #footer-links li {
     display: inline-block;
     text-transform: uppercase;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 #footer-links a {
     text-decoration: none;
     color: #00376B;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 #copyright {
-    font-size: 12px;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: #8E8E8E;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 /* MOBILE */
@@ -227,6 +231,6 @@ footer #footer-links li {
     }
 
     #footer-links li {
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
     }
 }
